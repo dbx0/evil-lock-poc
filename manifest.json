@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "evil.lock",
+  "name": "Evil Lock",
+  "version": "1.0.0",
+  "author": "bx0",
+  "description": "A themed session lock screen for Omarchy.",
+  "omarchy": {
+    "clonedFrom": "omarchy.lock"
+  },
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
